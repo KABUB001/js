@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;   
+    font-family: blinker;
+}
+
+.container1 {
+    width : 1040px;
+    margin: auto;
+}
+/*navbar*/
+.div-search{
+   
+    
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 4px;
+    margin-top: 30px;
+}
+input {
+    border: none;
+}
+.profile{
+    width : 65px;
+    height: auto;
+    padding-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:450px;
+    margin-right: 10px;
+    
+}
+
+.fa-chevron-down{
+    display:block;
+    position: relative;
+    bottom: 50px;
+}
+.fa1{
+    left: 20px;
+    bottom: 60px;
+}
+.fa2{
+    left: 20px;
+    bottom:40px;
+    
+}
+.fa-cart-shopping{
+    margin-left: 15px;
+}
+.fa-shop{
+    margin-left: 12px;
+}
+.logo{
+    width: 239px;
+    height: 100px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+/*NAV*/
+
+
+/*BODY*/
+
+.container2 {
+    width : 1040px;
+    margin: auto;
+}
+
+.explore{
+    width: 214px;
+    height: 432px;
+    border: 1px solid black;
+    box-shadow: 1px 1px ;
+}
+.image-principale {
+    width: 608px;
+    height: 432px;
+    background-color: blue;
+}
+
+.pubs-1{
+    width: 165px;
+    height: 432px;
+}
+
+.session1 {
+    display: flex;
+    justify-content: space-between 
+}
+.explore-1{
+    width: 165px;
+    height: 191px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+.pub1{
+    width: 165px;
+    height: 191px;
+    background-color: green;
+}
+
+/* Section Produits*/
+
+/*section2*/
+.section2{
+    width: 1006px;
+    height: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+/*section3*/
+.section3{
+    width: auto;
+    height: 1500px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.div-prod{
+    width: 200px;
+    height: 301px;
+    padding-top: 20px;
+}
+.div-img {
+    width: 230px;
+    height: 220px;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-details {
+    width: 230px;
+    height: 81px;
+    background-color: green;
+}
+.div-img1{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img2{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img3{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img4{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img5{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img6{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img7{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img8{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img9{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img10{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img11{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img12{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img13{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img14{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img15{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img16{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
