@@ -2,6 +2,10 @@
     box-sizing: border-box;   
     font-family: blinker;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .container1 {
     width : 1040px;
@@ -152,11 +156,12 @@ span i{
     height: 220px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .div-details {
     width: 230px;
     height: 81px;
-    background-color: green;
+    
 }
 
 .div-details p{
@@ -178,7 +183,7 @@ span i{
     background-image: url(images/mauboussin-bague-tellement-sublime_emeraude.png); 
 }
 .div-img6{
-    background-image: url(images/bijoux.jpeg); 
+    background-image: url(images/bijoux.png); 
 }
 .div-img7{
     background-image: url(images/bijoux2.webp); 
@@ -187,26 +192,38 @@ span i{
     background-image: url(images/bijoux3.jpeg); 
 }
 .div-img9{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/robe1.jpeg); 
 }
 .div-img10{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/robe2.jpeg); 
 }
 .div-img11{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/robe3.webp); 
 }
 .div-img12{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/robe4.png); 
 }
 .div-img13{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/louboutin.jpeg); 
 }
 .div-img14{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/boots-4125r-bordeaux-1_600x.webp); 
 }
 .div-img15{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/maxresdefault.jpeg); 
 }
 .div-img16{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/ps09_suede_calf_neoprene_calf_silk_multi_kaki_pierre_hardy_01.jpeg); 
+}
+
+
+.boutton-panier{
+    margin-top: 10px;
+    height: 30px;
+    width: 230px;
+    background-color: orange;;
+}
+
+.div-details-haut{
+    margin-left: 50px;
 }
