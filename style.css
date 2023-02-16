@@ -119,6 +119,12 @@ header{
     justify-content: space-between;
 }
 /*section3*/
+span i{
+    color:  red;
+}
+.fa-regular{
+    color: grey;
+}
 .section3{
     width: auto;
     height: 1500px;
@@ -142,6 +148,10 @@ header{
     width: 230px;
     height: 81px;
     background-color: green;
+}
+
+.div-details p{
+    font-size: 13px;
 }
 .div-img1{
     background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
