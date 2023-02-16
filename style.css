@@ -118,6 +118,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.section2 img{
+    width: 12rem;
+    height: 11rem;
+    border-radius: 20px;
+}
 /*section3*/
 span i{
     color:  red;
