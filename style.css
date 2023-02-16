@@ -81,11 +81,16 @@ header{
     height: 432px;
     border: 1px solid black;
     box-shadow: 1px 1px ;
+    text-align: center;
 }
 .image-principale {
     width: 608px;
     height: 432px;
-    background-color: blue;
+    background-image: url(images/banner-StValentin-FR-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+
 }
 
 .pubs-1{
@@ -145,7 +150,6 @@ span i{
 .div-img {
     width: 230px;
     height: 220px;
-    background-color: orange;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -162,25 +166,25 @@ span i{
     background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
 }
 .div-img2{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl.webp); 
 }
 .div-img3{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(1\).webp); 
 }
 .div-img4{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(2\).webp); 
 }
 .div-img5{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/mauboussin-bague-tellement-sublime_emeraude.png); 
 }
 .div-img6{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/bijoux.jpeg); 
 }
 .div-img7{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/bijoux2.webp); 
 }
 .div-img8{
-    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+    background-image: url(images/bijoux3.jpeg); 
 }
 .div-img9{
     background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
