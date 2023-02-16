@@ -211,9 +211,12 @@ span i{
 }
 .div-img15{
     background-image: url(images/maxresdefault.jpeg); 
+    background-size: contain;
 }
 .div-img16{
     background-image: url(images/ps09_suede_calf_neoprene_calf_silk_multi_kaki_pierre_hardy_01.jpeg); 
+    background-position: center;
+    background-size: contain;
 }
 
 
@@ -221,9 +224,19 @@ span i{
     margin-top: 10px;
     height: 30px;
     width: 230px;
-    background-color: orange;;
+    text-align: center;
+    padding-top: 0.5em;
+    color :white;
+}
+a:hover .boutton-panier{
+    background-color: orange;
+    color: green;
 }
 
 .div-details-haut{
-    margin-left: 50px;
+   text-align: center;
+}
+
+.div-details-plus{
+    margin-left: 3rem;
 }
