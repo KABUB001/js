@@ -87,6 +87,7 @@ header{
     box-shadow: 1px 1px ;
     text-align: center;
 }
+
 .image-principale {
     width: 608px;
     height: 432px;
@@ -131,6 +132,9 @@ header{
     width: 12rem;
     height: 11rem;
     border-radius: 20px;
+}
+.section2 p{
+    text-align: center;
 }
 /*section3*/
 span i{
