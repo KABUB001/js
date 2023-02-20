@@ -1,14 +1,16 @@
-var username = document.getElementById("name").value;
-var mail = document.getElementById("email").value;
-var mdp = document.getElementById("password").value;
-var rmdp = document.getElementById("rpassword").value;
-var result = document.getElementById("result");
-console.log(mail)
+const form = document.getElementById('form');
+
+form.addEventListener("submit", signUp())
 
 function signUp(e) {
     e.preventDefault();
+    var username = document.getElementById("name").value;
+    var mail = document.getElementById("email").value;
+    var mdp = document.getElementById("password").value;
+    var rmdp = document.getElementById("rpassword").value;
+    var result = document.getElementById("result");
 
-
+    console.log(username);
 
 /*var user = {
     email: mail,
