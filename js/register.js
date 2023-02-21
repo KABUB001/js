@@ -1,8 +1,8 @@
-const form = document.getElementById('form');
 
-form.addEventListener("submit", signUp())
+const form1 = document.getElementById('form1');
 
-function signUp(e) {
+
+form1.addEventListener('submit', function signUp(e){
     e.preventDefault();
     var username = document.getElementById("name").value;
     var mail = document.getElementById("email").value;
@@ -11,21 +11,28 @@ function signUp(e) {
     var result = document.getElementById("result");
 
     console.log(username);
+    if (mdp === rmdp){
+        var user = {
+            email: mail,
+            username: username,
+            password: mdp,
+            
+        };
+        console.log(user)
+        
+            let json = JSON.stringify(user);
+        localStorage.setItem(username, json);
+        result.style.color = "green";
+        result.innerHTML = "Félicitations, nouveau inscrit ! "
+        console.log("user added");
+    }
+    else {result.innerHTML = "Mot de pass non identique" } 
+});
 
-/*var user = {
-    email: mail,
-    username: username,
-    password: mdp,
-    rpassword: rmdp
-};
-console.log(user)
 
-    let json = JSON.stringify(user);
-localStorage.setItem(username, json);
-console.log("user added");
 
-*/
-}
+
+
 
 
 
@@ -44,16 +51,3 @@ rmdp.addEventListener("input", function(e){
     localStorage.setItem('rpassword', e.target.value)
 })*/
 
-/*function loginFunc(e){
-    event.preventDefault();
-var username = document.getElementById("name").value;
-var mdp = document.getElementById("password").value
-var result = document.getElementById("result");
-var user = localStorage.getItem(username);
-var data = JSON.parse(user);
-console.log(data)
-    
-if(user == null){
-    result.innerHTML =
-}
-}*/
